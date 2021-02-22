@@ -1,0 +1,154 @@
+
+/* All of my styling is terrible, don't touch it unless ur ready for the consequences*/
+
+ .fighter1Box {
+   display: inline-block;
+   margin-right: 147px;
+   width: 400px;
+   height: 400px;
+   border-radius: 3px;
+   border-color: black;
+   border-width: 2px;
+   border-style: solid;
+   padding: 10px;
+ }
+
+ .buttons {
+   background-color: #FFFFFF;
+   border-radius: 12px;
+   border: 2px solid;
+   color: black;
+   border-color: black padding: 13px 30px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 12px;
+   opacity: 1;
+   cursor: pointer;
+ }
+
+ .buttons:hover {
+   opacity: 1;
+   background-color: #EeEEEe;
+   border: 1px #99ccff solid;
+ }
+
+ .buttons:active {
+   background-color: #cCcCcc;
+   border: 1px #000000 solid;
+ }
+
+ #box1 {
+   width: 400px;
+   height: 400px;
+   object-fit: cover;
+ }
+
+ #box2 {
+   width: 400px;
+   height: 400px;
+   object-fit: cover;
+ }
+
+ #resultsTable, tr, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+ }
+
+ #resultsTable {
+   border-width: 2px;
+   border-radius: 3px;
+   width: 300px;
+ }
+
+ .resultsImg {
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+ }
+
+ td, tr, th {
+   font-family: Arial;
+   font-size: 20px;
+   padding: 5px;
+ }
+
+ .fighter2Box {
+   display: inline-block;
+   width: 400px;
+   height: 400px;
+   border-radius: 3px;
+   border-color: black;
+   border-width: 2px;
+   border-style: solid;
+   padding: 10px;
+ }
+
+ .versusLayout {
+   width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ body {
+   margin: 30px;
+   font-size: 20px;
+ }
+
+ #button1 {
+   width: 150px;
+   padding: 10px;
+   margin-right: 430px;
+   border-style: solid;
+   border-color: black;
+   border-radius: 3px;
+   border-width: 2px;
+ }
+
+#note {
+  font-family: Arial;
+}
+
+ #button2 {
+   width: 150px;
+   padding: 10px;
+   border-style: solid;
+   border-color: black;
+   border-radius: 3px;
+   border-width: 2px;
+ }
+
+ .buttonsLayout {
+   /* background-color: rebeccapurple; */
+   margin-top: 15px;
+   width: 735px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ #resultTxt {
+   width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 0;
+   border-style: none;
+   border-color: black;
+   border-radius: 3px;
+   border-width: 2px;
+ }
+
+ #startBtn {
+   padding: 10px;
+   width: 75px;
+   border-style: solid;
+   border-color: black;
+   border-radius: 3px;
+   border-width: 2px;
+ }
+
+ .startBtnLayout {
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 10px;
+   width: 77px;
+ }

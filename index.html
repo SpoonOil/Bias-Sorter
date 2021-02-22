@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Bias Sorter</title>
+  <meta name="description" content="Bias Sorter">
+  <meta name="author" content="Джон Ниевес, Девид Арригони">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <div id="note">Every other sorter we could find online was very hard to understand and/or couldn't do images easily. If you want something done right you got to do it yourself. Have fun making your own sorter with this code :) </div>
+  <br><br>
+  <script src="js/sorter.js"></script>
+  <div class="versusLayout">
+    <div class="fighter1Box">
+      <img id="box1" src="https://media.discordapp.net/attachments/270670857444130816/813142918365184011/man-portrait-silhouette.png?width=542&height=701" alt="">
+    </div>
+    <div class="fighter2Box">
+      <img id="box2" src="https://media.discordapp.net/attachments/270670857444130816/813142918365184011/man-portrait-silhouette.png?width=542&height=701" alt="">
+    </div>
+  </div>
+  <div class="buttonsLayout">
+    <button id="button1" type="button" onclick="chooseLeft()" class="buttons">Pick me!</button>
+    <button id="button2" type="button" onclick="chooseRight()" class="buttons">No me!</button>
+  </div>
+  <br>
+  <div class="startBtnLayout">
+    <button id="startBtn" type="button" onclick="start()" class="buttons">Start</button>
+  </div>
+  <div id="resultTxt">
+    <table id="resultsTable">
+
+    </table>
+  </div>
+
+</body>
+
+</html>
