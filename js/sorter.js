@@ -197,7 +197,7 @@ function generateTableRows(table, data) {
     var text2 = document.createTextNode(i1 + 1);
     cell1.appendChild(text1);
     cell2.appendChild(text2);
-    if (i1 < 3) {
+    if (i1 < resultsImgAmount) {
       var img = document.createElement("img");
       img.setAttribute('src', data[i1].img);
       img.classList.add("resultsImg");

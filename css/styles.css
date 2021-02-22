@@ -57,13 +57,13 @@
  #box1 {
    width: 400px;
    height: 400px;
-   object-fit: cover;
+   object-fit: contain;
  }
 
  #box2 {
    width: 400px;
    height: 400px;
-   object-fit: cover;
+   object-fit: contain;
  }
 
  #resultsTable, tr, th, td {
@@ -80,7 +80,7 @@
  .resultsImg {
    width: 200px;
    height: 200px;
-   object-fit: cover;
+   object-fit: contain;
  }
 
  td, tr, th {
