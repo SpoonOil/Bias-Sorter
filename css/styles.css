@@ -3,7 +3,7 @@
 
  .fighter1Box {
    display: inline-block;
-   margin-right: 147px;
+   margin-right: 39px;
    width: 400px;
    height: 400px;
    border-radius: 3px;
@@ -11,6 +11,22 @@
    border-width: 2px;
    border-style: solid;
    padding: 10px;
+ }
+
+ .or {
+   display: inline-block;
+   border-radius: 3px;
+   border-color: black;
+   border-width: 2px;
+   border-style: solid;
+   padding: 10px;
+   vertical-align: top;
+   margin-top: 200px;
+   margin-right: 39px;
+   font-family: arial;
+   font-size: 12px;
+   text-align: center;
+   width:40px;
  }
 
  .buttons {
