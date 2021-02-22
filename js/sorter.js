@@ -1,4 +1,4 @@
-/* This code isn't very clean or best practice but it gets the job done and works flawlessly (to my knowledge) */
+/* This code isn't very clean or best practice but it gets the job done and works flawlessly (to my knowledge). The default item set is mostly a bunch of joke images from when I'm publishing this, 2/21/2021*/
 
 /*----------------------------------------------------------*/
 
